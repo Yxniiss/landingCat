@@ -1,0 +1,245 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h4 {
+    color: #222;
+    font-weight: bold;
+
+}
+
+header {
+    background-color: #444;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+section#prod{
+
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f7f7f7;
+}
+
+section#prod img{
+height: auto;
+max-width: 400px;
+border-radius: 10px;
+margin: 20px 0;
+}
+
+section#prod p {
+    font-size: 17.6px;
+    color: #555;
+}
+
+section#prod p:last-child{
+
+    border-left: 3px red solid;
+    border-right: 3px red solid;
+    border-top: 3px red solid;
+    border-bottom: 3px red solid;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px black;
+    padding: 15px;
+    display: inline-block;
+    font-weight: bold;
+    color: red;
+    margin: 25px 0;
+}
+
+section#Pourquoi-nous{
+
+    background-color: #2222221d;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+section#Pourquoi-nous h3{
+    color: #222;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+    font-size: 25px;
+    text-decoration: underline;
+    
+}
+
+section#Pourquoi-nous ul{
+    list-style:"➡️ " ;
+}
+
+
+
+section#avis{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+
+}
+
+section#avis .avis1{
+
+    display: block;
+    width: 300px;
+    height: 325px;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 1px 10px #333;
+    margin-top: 50px;
+}
+
+section#avis .avis1 h5{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    
+
+}
+
+section#avis .avis1 p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section#avis .avis2{
+
+    display: block;
+    width: 300px;
+    height: 325px;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 1px 10px #333;
+    margin-top: 50px;
+}
+
+section#avis .avis2 h5{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+section#avis .avis2 p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section#avis .avis2 p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section#avis .avis3{
+
+    display: block;
+    width: 300px;
+    height: 325px;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 1px 10px #333;
+    margin: 50px;
+}
+
+section#avis .avis3 h5{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+
+
+}
+
+section#avis .avis3 p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section#network{
+
+    
+}
+
+section#network #img1{
+    position: relative;
+    bottom: 100px;
+    left: 380px;
+}
+
+section#network h4{
+    text-align: center;
+    position: relative;
+    bottom: 75px;
+}
+
+section#network img{
+    position: relative;
+    bottom: 360px;
+    left: 900px;
+}
+
+footer{
+
+
+    background-color: #222222;
+    padding: 40px 20px;
+    color: #e4dcdc;
+}
+
+footer a {
+    color: #827e7e; 
+    text-decoration: none;
+}
+
+footer ul{
+
+    text-align: center;
+    list-style: none;
+    font-size:15px;
+}
+
+footer ul li{
+
+    display: inline-flex;
+    margin-top: 30px;
+}
