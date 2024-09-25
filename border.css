@@ -1,0 +1,37 @@
+/* Sélectionner toutes les balises */
+* {
+    border: 1px solid red; /* Applique une bordure rouge à tous les éléments */
+    margin: 5px; /* Ajoute un léger espace autour des éléments */
+    padding: 5px; /* Ajoute un léger espace à l'intérieur des éléments */
+  }
+  
+  /* Ajout de couleurs pour mieux comprendre les types d'éléments */
+  body {
+    background-color: #f0f0f0; /* Arrière-plan gris clair pour le body */
+  }
+  
+  p {
+    border: 1px solid blue; /* Bordure bleue pour les paragraphes */
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    border: 1px solid green; /* Bordure verte pour les titres */
+  }
+  
+  a {
+    border: 1px solid orange; /* Bordure orange pour les liens */
+    text-decoration: none; /* Retirer la décoration par défaut des liens */
+  }
+  
+  div {
+    border: 1px solid purple; /* Bordure violette pour les div */
+  }
+  
+  span {
+    border: 1px solid yellow; /* Bordure jaune pour les spans */
+  }
+  
+  img {
+    border: 1px solid black; /* Bordure noire pour les images */
+  }
+  
