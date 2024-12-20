@@ -214,6 +214,73 @@ section#avis .avis3 p{
     margin-top: 50px;
 }
 
+section#contact {
+    background-color: #f7f7f7;
+    padding: 40px 20px;
+    margin: 40px 0;
+    box-shadow: 1px 1px 10px #333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+section#contact h3 {
+    color: #222;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+section#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section#contact form label {
+    align-self: flex-start;
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+section#contact form input,
+section#contact form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+section#contact form input:focus,
+section#contact form textarea:focus {
+    outline: none;
+    border-color: #444;
+    box-shadow: 0 0 5px #444;
+}
+
+section#contact form button {
+    padding: 10px 20px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+section#contact form button:hover {
+    background-color: #333;
+}
+
+
 footer{
 
 
@@ -238,4 +305,72 @@ footer ul li{
 
     display: inline-flex;
     margin-top: 30px;
+}
+
+@media (max-width: 480px) {
+
+    nav ul li {
+        font-size: 1rem; 
+        text-align: center; 
+    }
+
+    section#prod h1 {
+        font-size: 1.5rem; 
+    }
+
+    section#prod h2 {
+        font-size: 1.2rem; 
+    }
+
+    section#Pourquoi-nous ul li p {
+        font-size: 0.9rem; 
+    }
+
+    section#avis {
+        flex-direction: column; 
+        margin-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section#avis .avis1, section#avis .avis2, section#avis .avis3 {
+        width: 100%;
+        max-width: 300px; 
+        margin-top: 20px; 
+    }
+
+    #network > article {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    #network > article > a > img {
+        width: 80%; 
+        margin-bottom: 20px;
+    }
+
+    #network h4 {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-size: 1rem; 
+    }
+
+    section#contact form {
+        width: 90%;
+        max-width: 400px; 
+    }
+
+    section#contact form input, section#contact form textarea {
+        width: 100%;
+        max-width: none; 
+    }
+
+    footer {
+        padding: 20px 10px; 
+    }
+
+    footer ul li {
+        display: block; 
+        margin-top: 10px;
+    }
 }
